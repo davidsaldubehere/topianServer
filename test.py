@@ -31,6 +31,7 @@ def search(query):
 def getAudioLink(videoId):
     ydl_opts = {
     'format': 'bestaudio',
+    'cookiefile': 'cookies.txt',
     }
     with YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(f'https://www.youtube.com/watch?v={videoId}', download=False)
