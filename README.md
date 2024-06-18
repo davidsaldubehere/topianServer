@@ -2,4 +2,4 @@
 
 Flask API for Topian music app (outdated)
 
-Project model switched away from open source
+https://github.com/davidsaldubehere/topian/tree/master
